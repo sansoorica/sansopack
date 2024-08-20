@@ -1,0 +1,83 @@
+﻿{
+	"repos": [
+		{
+			"url": "https://github.com/JSY1728/EDOPRO-Korean-CDB-TEST",
+			"repo_name": "한국어 패치 (팀 ALL YGOPRO)",
+			"repo_path": "./repositories/languages/한국어",
+			"is_language": true,
+			"language": "한국어",
+			"should_update": true,
+			"should_read": true
+		},
+		{
+			"url": "https://github.com/CCC-Server/EMP-TY",
+			"repo_name": "추가 한국어 패치",
+			"repo_path": "./repositories/languages/한국어-2",
+			"is_language": true,
+			"language": "한국어",
+			"should_update": false,
+			"should_read": true
+		},
+		{
+			"url": "https://github.com/Orikka-CS/OriCS-procs",
+			"repo_name": "Team-CT 공용 프로시저",
+			"repo_path": "./repositories/OriCS-procs",
+			"script_path": "script",
+			"should_update": true,
+			"should_read": true
+		},
+		{
+			"url": "https://github.com/sansoorica/sansopack",
+			"repo_name": "산소팩 데이터",
+			"repo_path": "./repositories/SansoPack",
+			"data_path": "database",
+			"script_path": "script",
+			"lflist_path": "banlist",
+			"should_update": true,
+			"should_read": true
+		},
+		{
+			"url": "https://github.com/sansoorica/sansopics",
+			"repo_name": "산소팩 이미지",
+			"repo_path": "./repositories/SansoPics",
+			"data_path": "",
+			"pics_path": "pics",
+			"should_update": true,
+			"should_read": true
+		},
+		{
+			"url": "https://github.com/CCC-Server/EMP-TY",
+			"repo_name": "커스텀 확장팩",
+			"repo_path": "./expansions-2",
+			"data_path": "",
+			"pics_path": "pics",
+			"script_path": "script",
+			"should_update": false,
+			"should_read": true
+		}
+	],
+	"urls": [
+		{
+			"url": "https://raw.githubusercontent.com/sansoorica/sansopics/main/pics/field/{}.png",
+			"type": "field"
+		},
+		{
+			"url": "https://raw.githubusercontent.com/sansoorica/sansopics/main/pics/field/{}.jpg",
+			"type": "field"
+		},
+		{
+			"url": "https://raw.githubusercontent.com/CCC-Server/EMP-TY/main/pics/field/{}.png",
+			"type": "field"
+		}
+	],
+	"servers": [
+		{
+			"name": "산소 서버",
+			"address": "one.for-o.n-e.kr",
+			"duelport": 30002,
+			"roomaddress": "one.for-o.n-e.kr",
+			"roomlistprotocol": "http",
+			"roomlistport": 30003
+		}
+	]
+}
